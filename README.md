@@ -1,5 +1,6 @@
 # Linux_server_services_checker_v1
-Ready to use script, as it is works only with slack integration but email alerting can be another option.
+Script to monitor services on a Linux env, as it is works only with slack integration but email alerting could be another option.
+The script works by attaching "tags" to every working and runnuning service, it will then check again a list or services provided by the user and also that services agains it own tag to avoid repetive alerting.
 +
 +
 After stracting the content of the zip file, create a folder called "tags" inside the main folder.
