@@ -1,0 +1,96 @@
+#background { 
+    background: url(./assets/img-noise-361x370\ \(1\).png);
+    
+}
+
+#title {
+    color: darkturquoise;
+    text-shadow: 2px 2px black;
+    padding: 10px 10px 10px 50px;
+}
+
+#title2 {
+    color: coral;
+    text-shadow: 2px 2px black;
+    padding: 10px 10px 10px 250px;
+}
+
+#form {
+    color:black;
+    font-size: larger;
+    padding: 10px 10px 10px 450px;
+    position: relative;
+    
+    
+}
+
+#numForMonth {
+    border-radius: 10px;
+}
+
+#numForDay {
+    border-radius: 10px;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Corben', Georgia, Times, serif;
+}
+p, div {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+
+
+#eventsTile, #birthsTile, #deathsTile {
+    color:chartreuse;
+    font-weight: bolder;
+    font-size: larger;
+    text-shadow: 2px 2px black;
+}
+
+#summit {
+    display:inline-block;
+    padding:0.3em 1.2em;
+    margin:0 0.3em 0.3em 0;
+    border-radius:2em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    color:blue;
+    background-color:#4eb5f1;
+    text-align:center;
+    transition: all 0.2s;
+    font-weight: bold;
+    
+}
+
+#summit:hover {
+    color: crimson;
+    font-weight: bold;
+}
+
+#events,
+#births,
+#deaths {
+    font-style: normal;
+    
+    
+    color: black;
+    font-weight: bolder;
+    text-shadow: 1px 1px white;    
+    
+}
+
+#main {
+    padding: 25px;
+}
+
+#signature {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-weight: bolder;
+    color: crimson;
+}

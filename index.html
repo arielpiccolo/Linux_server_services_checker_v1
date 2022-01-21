@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your B-Day in History!</title>
+    <link rel="stylesheet" href="/style.css"> 
+    <link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
+</head>
+<body id="background">
+
+
+
+    <h1 id="title">...because your b-day isn't just another ordinary day!</h1>
+    <h3 id="title2">Enter your birth date and month bellow to dig into history! ... </h3>
+     
+    <form id="form">
+    <input type="number" id="numForMonth" value="1" min="1" max="12"> Month
+    <input type="number" id="numForDay" value="1" min="1" max="31"> Day 
+    <button id="summit" type="button" onclick="fetchData();">Check it out!</button>
+    </form>
+
+    <main id="main">
+    <div id="eventsTile"></div>
+    <div id="events"></div>
+    <div id="birthsTile"></div>
+    <div id="births"></div>
+    <div id="deathsTile"></div>
+    <div id="deaths"></div>
+    </main>
+
+    <div id="signature">&copy;</h2> voodoomate</div>
+
+</body>
+<script src="./app.js"></script>
+</html>
+
